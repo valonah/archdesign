@@ -6,12 +6,36 @@
   <meta name="viewport">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Gigantic JavaScript</title>
+  <style>
+    #content-wrapper {
+      padding: 20px 40px;
+    }
+
+    #screen {
+      padding-bottom: 10px;
+      color: #5f1b3a;
+      font-size: 1.4em;
+    }
+
+    #message {
+      width: 300px;
+      font-size: 2em;
+    }
+
+    #publish-btn {
+      font-size: 2em;
+      background-color: #1d92b5;
+      color: #ffffff;
+    }
+  </style>
 </head>
 
 <body>
+  <div id="content-wrapper">
     <div id="screen"></div>
-    <input type="text" id="message"/>
-    <button id="publish-btn">Publish Message</button>
+    <input type="text" id="message" />
+    <button id="publish-btn">Publish</button>
+  </div>
 </body>
 <script src="./index.js"></script>
 
