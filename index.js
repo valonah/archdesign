@@ -3,14 +3,15 @@ const publishButton = document.getElementById('publish-btn');
 const screen = document.getElementById('screen');
 
 // Objective of the program:
+
 // As a user, I want to enter any text in the input text field
 // As a user, When I click on the publish button,
-// I should see the message I typed display on the screen above
+// I should see the message I typed displayed on the screen above
 // the input field.
 
 // Complete the remaining part of this app by following the steps below
 
-// Add event Listener here
+// Add event Listener to publishButton
 // https://www.w3schools.com/js/js_htmldom_eventlistener.asp
 
 // Inside the publish button event handler function
