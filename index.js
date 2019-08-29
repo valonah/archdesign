@@ -2,6 +2,16 @@ const messageField = document.getElementById('message');
 const publishButton = document.getElementById('publish-btn');
 const screen = document.getElementById('screen');
 
+function myFunction() {
+  var x = document.getElementById("message").value;
+  document.getElementById("publish-btn").innerHTML = x;
+}
+
+var MyFirstPara = document.createElement("p");
+var node = document.createTextNode("This is a new one");
+MyFirstPara.appendChild(node);
+var element = document.getElementById("div1");
+element.appendChild(MyFirstPara);
 // Objective of the program:
 
 // As a user, I want to enter any text in the input text field

@@ -31,10 +31,16 @@
 </head>
 
 <body>
+  <p id="publish-btn"></p>
   <div id="content-wrapper">
     <div id="screen"></div>
-    <input type="text" id="message" />
-    <button id="publish-btn">Publish</button>
+    <input type="text" id="message" onfocus="this.value=''" value="Enter your Text"/>
+    <button onclick="myFunction()">Publish</button>
+  </div>
+
+  <div id="div1">
+    <p id="p1"> This is my first paragraph</p>
+    <p id="p2"> This is my second paragraph</p>
   </div>
 </body>
 <script src="./index.js"></script>
